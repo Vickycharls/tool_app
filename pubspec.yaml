@@ -1,0 +1,32 @@
+name: tool_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Asegúrate de usar un rango compatible
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2  # Cambia la versión de http a una versión compatible
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2 # Asegúrate de que esté aquí
+  flutter_lints: ^4.0.0
+
+# Configuración para flutter_launcher_icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/foto.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/toolbox.png
